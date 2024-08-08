@@ -1,0 +1,26 @@
+THypervBox COM Server 5.1.4_OSE r110228 win.amd64 (Aug  6 2020 11:19:57) release log
+00:00:00.003904 main     Log opened 2023-12-03T20:14:12.904048300Z
+00:00:00.003904 main     Build Type: release
+00:00:00.003904 main     OS Product: Windows 10
+00:00:00.003904 main     OS Release: 10.0.19045
+00:00:00.003904 main     OS Service Pack: 
+00:00:00.020499 main     DMI Product Name: Latitude 5580
+00:00:00.029279 main     DMI Product Version: 
+00:00:00.029279 main     Host RAM: 8054MB total, 4344MB available
+00:00:00.029279 main     Executable: C:\Program Files\AndroidTbox\TBoxSVC.exe
+00:00:00.029279 main     Process ID: 17416
+00:00:00.029279 main     Package type: WINDOWS_64BITS_GENERIC (OSE)
+00:00:00.031541          THypervBox: object creation starts
+00:00:00.032209          Home directory: 'C:\Users\Mega Store\.THypervBox'
+00:00:00.032209          Installed Drivers:
+00:00:00.034159            C:\Program Files\AndroidTbox\TBoxDrv.sys (Version: 5.1.4.10228)
+00:00:00.039479          Loading settings file "C:\Users\Mega Store\.THypervBox\THypervBox.xml" with version "1.12-windows"
+00:00:00.040016          USBLibInit: USB Service not found
+00:00:00.140574          netIfGetBoundAdapters: could not find either 'hyperv_TBoxNetLwf' or 'sun_TBoxNetFlt' components (0x1)
+00:00:00.147377          HostDnsMonitorProxy::notify
+00:00:00.148355          VD: VDInit finished
+00:00:00.148355          ERROR [COM]: aRC=E_FAIL (0x80004005) aIID={db57efcf-a490-11e9-be35-005056c00008} aComponent={SystemPropertiesWrap} aText={Cannot determine default Guest Additions ISO location. Most likely they are not available}, preserve=false aResultDetail=0
+00:00:00.150304          Loading settings file "D:\Program Files\TxGameAssistant\VDI_100_x64\TVM_100.tbox" with version "1.12-windows"
+00:00:00.154208          THypervBox: object created
+00:00:00.761335          Loading settings file "D:\Program Files\TxGameAssistant\VDI_100_x64\TVM_100.tbox" with version "1.12-windows"
+00:00:01.208430          WARNING [COM]: aRC=E_FAIL (0x80004005) aIID={db57c8c1-a490-11e9-a2fd-005056c00008} aComponent={HostWrap} aText={Could not load the Host USB Proxy Service (VERR_FILE_NOT_FOUND). The service might not be installed on the host computer}, preserve=true  aResultDetail=0
